@@ -23,3 +23,4 @@ func Execute() {
 func init() {
 	rootCmd.PersistentFlags().StringVarP(&promethuesURL, "url", "u", "http://localhost:9090", "Prometheus URL")
 }
+
